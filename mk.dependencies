@@ -2,5 +2,9 @@
   {
     "repository": "android_device_sony_nile-common",
     "target_path": "device/sony/nile-common"
+  },
+  {
+    "repository": "android_vendor_sony_pioneer",
+    "target_path": "vendor/sony/pioneer"
   }
 ]

@@ -21,11 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from pioneer device
 $(call inherit-product, device/sony/pioneer/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common MK stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_pioneer
+PRODUCT_NAME := mk_pioneer
 PRODUCT_DEVICE := pioneer
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia XA2

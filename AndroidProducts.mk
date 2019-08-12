@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pioneer.mk
+    $(LOCAL_DIR)/mk_pioneer.mk
